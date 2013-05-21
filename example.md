@@ -1,7 +1,7 @@
 ---
 ---
-# markdown: redcarpet
-markdown: redcarpet
+# config
+markdown: kramdown
 pygments: true
 
 # h1-1
