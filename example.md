@@ -38,6 +38,7 @@ function test(args) {
     console.log(args);
 };
 ```
+
 ##example 3
 {% highlight js %}
 function test(args) {
