@@ -1,8 +1,11 @@
 ---
 ---
 # config
-markdown: kramdown
-pygments: true
+
+    markdown: maruku
+    #markdown: kramdown
+    #markdown: redcarpet
+    pygments: true
 
 # h1-1
 Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
