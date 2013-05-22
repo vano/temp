@@ -2,8 +2,8 @@
 ---
 # config
 
-    markdown: maruku
-    #markdown: kramdown
+    #markdown: maruku
+    markdown: kramdown
     #markdown: redcarpet
     pygments: true
 
