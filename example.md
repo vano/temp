@@ -1,6 +1,6 @@
 ---
 ---
-# config
+# _config.yml
 
     #markdown: maruku
     markdown: kramdown
