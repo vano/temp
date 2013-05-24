@@ -4,6 +4,11 @@
 
     markdown: kramdown
     pygments: true
+    
+    kramdown:
+      enable_coderay: true
+      use_coderay: true
+
 
 #example 1
 ~~~ js
