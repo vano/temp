@@ -1,6 +1,7 @@
 ---
 ---
 # config.yml
+
 # {{ site.version }}
 
 #example 1
