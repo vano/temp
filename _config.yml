@@ -1,11 +1,11 @@
-version: 2
+version: 3
 
-#markdown: kramdown
-#pygments: true
+markdown: kramdown
+pygments: true
 
-#kramdown:
-#  enable_coderay: true
-#  use_coderay: true
+kramdown:
+  enable_coderay: true
+  use_coderay: true
 
 #  coderay:
 #    coderay_wrap: div
