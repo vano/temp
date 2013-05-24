@@ -2,3 +2,7 @@
 markdown: kramdown
 #markdown: redcarpet
 pygments: true
+
+kramdown:
+  enable_coderay: true
+  use_coderay: true
