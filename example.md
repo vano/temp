@@ -1,14 +1,6 @@
 ---
 ---
-# _config.yml
-
-    markdown: kramdown
-    pygments: true
-    
-    kramdown:
-      enable_coderay: true
-      use_coderay: true
-
+# _config.yml {{ site.version }}
 
 #example 1
 ~~~ js
