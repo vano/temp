@@ -1,6 +1,7 @@
 ---
 ---
-# _config.yml {{ site.version }}
+#_config.yml
+#{{ site.version }}
 
 #example 1
 ~~~ js
