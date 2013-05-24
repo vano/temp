@@ -1,7 +1,7 @@
 ---
 ---
 #_config.yml
-#{{ site.version }}
+#{ site.version }
 
 #example 1
 ~~~ js
