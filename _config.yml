@@ -1,10 +1,10 @@
-version: 8
+version: 9
 
 markdown: kramdown
 pygments: false
 
-kramdown:
-  enable_coderay: true
+#kramdown:
+#  enable_coderay: true
 #  use_coderay: true
 #  coderay_wrap: div
 #  coderay_line_numbers: inline
