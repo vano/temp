@@ -1,12 +1,11 @@
-version: 6
+version: 7
 
 markdown: kramdown
 pygments: false
 
-kramdown:
+#kramdown:
   enable_coderay: true
   use_coderay: true
-
   coderay_wrap: div
   coderay_line_numbers: inline
   coderay_line_numbers_start: 1
