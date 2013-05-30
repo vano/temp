@@ -1,8 +1,32 @@
 ---
 ---
+<html>
+<head>
+    <script src ="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"
+            type="text/javascript"></script>
+    <script src="//google-code-prettify.googlecode.com/svn/loader/run_prettify.js?&autoload=false"
+            type="text/javascript"></script>
+<!--
+lang=css&lang=html&lang=js&skin=sons-of-obsidian
+<link href="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+<script src="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.js"></script>
+-->
+  <script>
+    // make sure jQuery is loaded before you run this function,
+    // probably a good idea to create an application.js loaded
+    // as last js file
+    $(function() {
+      // make code pritty
+      $('pre > code[class^="language-"]');
+      window.prettyPrint && prettyPrint();
+    });
+  </script>
+</head>
+<body>
+
 # config.yml
 
-# {{ site.version }}
+# {{ site.version }}/1
 
 #example 1
 ~~~ js
@@ -24,3 +48,6 @@ function test(args) {
     console.log(args);
 };
 {% endhighlight %}
+
+</body>
+</html>
