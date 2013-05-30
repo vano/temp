@@ -1,6 +1,5 @@
-version: 10
+version: 11
 
-#markdown: kramdown
-markdown: maruku
-pygments: true
+markdown: kramdown
+pygments: false
 
