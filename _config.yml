@@ -1,14 +1,6 @@
-version: 9
+version: 10
 
-markdown: kramdown
-pygments: false
+#markdown: kramdown
+markdown: maruku
+pygments: true
 
-#kramdown:
-#  enable_coderay: true
-#  use_coderay: true
-#  coderay_wrap: div
-#  coderay_line_numbers: inline
-#  coderay_line_numbers_start: 1
-#  coderay_tab_width: 4
-#  coderay_bold_every: 10
-#  coderay_css: style
