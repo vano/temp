@@ -12,15 +12,12 @@ lang=css&lang=html&lang=js&skin=sons-of-obsidian
 <script src="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.js"></script>
 -->
   <script>
-    // make sure jQuery is loaded before you run this function,
-    // probably a good idea to create an application.js loaded
-    // as last js file
     $(function() {
-      // make code pritty
-      /*
-      $('pre > code[class^="language-"]');
-      window.prettyPrint && prettyPrint();
-      */
+        $('pre > code[class^="language-"]')
+            .parent()
+            .addClass('prettyprint');
+        window.prettyPrint && 
+               prettyPrint();
     });
   </script>
 </head>
