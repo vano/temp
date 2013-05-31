@@ -6,8 +6,6 @@
 
 # config.yml
 
-# {{ site.version }}/1
-
 #example 1
 ~~~ js
 function test(args) {
