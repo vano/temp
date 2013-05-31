@@ -1,6 +1,6 @@
 ---
 
-    layout:template.html
+    layout:template
 
 ---
 
