@@ -4,10 +4,9 @@
 <head>
     <script src ="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"
             type="text/javascript"></script>
-    <script src="//google-code-prettify.googlecode.com/svn/loader/run_prettify.js"
+    <script src="//google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&lang=html&lang=js&skin=sons-of-obsidian"
             type="text/javascript"></script>
 <!--
-lang=css&lang=html&lang=js&skin=sons-of-obsidian
 <link href="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 <script src="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.js"></script>
 -->
@@ -15,7 +14,7 @@ lang=css&lang=html&lang=js&skin=sons-of-obsidian
     $(function() {
         $('pre > code[class^="language-"]')
             .parent()
-            .addClass('prettyprint');
+            .addClass('prettyprint linenums');
         window.prettyPrint && 
                prettyPrint();
     });
